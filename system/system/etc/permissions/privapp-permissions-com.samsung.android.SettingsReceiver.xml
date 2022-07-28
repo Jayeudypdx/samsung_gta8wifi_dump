@@ -1,0 +1,28 @@
+<!-- 
+********************IMPORTANT NOTICE **********************************
+************* 
+If  you add new permission here. Please fix cn/privapp-permissions-com.samsung.android.SettingsReceiver.xml as well
+
+Because of the Google new policy (2021.05.24)
+Global model should not use READ_NETWORK_USAGE_HISTORY. we disable releated feature on global and only enable the datausage reminder feature 
+for cn region.(except HK/TW, HK/TW fllow Global)
+https://mobilerndhub.sec.samsung.net/hub/site/app/board/notice/view/28069613/?page=1
+
+**************
+
+-->
+
+<permissions>
+    <privapp-permissions package="com.samsung.android.SettingsReceiver">
+        <permission name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.MANAGE_ACTIVITY_STACKS"/>
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
+    </privapp-permissions>
+</permissions>

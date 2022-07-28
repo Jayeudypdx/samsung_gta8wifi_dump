@@ -1,0 +1,14 @@
+# gta8wifixx-user 11 RP1A.200720.012 X200XXU1AVG1 release-keys
+- manufacturer: 
+- platform: ums512
+- codename: gta8wifi
+- flavor: gta8wifixx-user
+- release: 11
+- id: RP1A.200720.012
+- incremental: X200XXU1AVG1
+- tags: release-keys
+- fingerprint: samsung/gta8wifixx/gta8wifi:11/RP1A.200720.012/X200XXU1AVG1:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: gta8wifixx-user-11-RP1A.200720.012-X200XXU1AVG1-release-keys
+- repo: samsung_gta8wifi_dump
